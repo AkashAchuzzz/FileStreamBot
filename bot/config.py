@@ -3,7 +3,7 @@ from os import environ as env
 class Telegram:
     API_ID = int(env.get("TELEGRAM_API_ID", 16970144))
     API_HASH = env.get("TELEGRAM_API_HASH", "9aaa8123d070b0507ebb24dac8443857")
-    OWNER_ID = int(env.get("OWNER_ID", 16970144))
+    OWNER_ID = int(env.get("OWNER_ID", 969730932))
     ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "").split()
     BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "Yoko_Robot")
     BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "5479481991:AAHtca0jxG7Uqf5aeQTrpcd9Cb3TPC00QEQ")
@@ -12,8 +12,8 @@ class Telegram:
     SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
 
 class Server:
-    BASE_URL = env.get("BASE_URL", "https://cdn.run-us-west2.goorm.site")
-    BIND_ADDRESS = env.get("BIND_ADDRESS", "0.0.0.0")
+    BASE_URL = env.get("BASE_URL", "34.216.12.78:56293")
+    BIND_ADDRESS = env.get("BIND_ADDRESS", "https://gloomlabsweb.run-us-west2.goorm.app")
     PORT = int(env.get("PORT", 8080))
 
 # LOGGING CONFIGURATION
