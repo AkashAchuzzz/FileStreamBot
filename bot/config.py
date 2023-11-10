@@ -13,7 +13,7 @@ class Telegram:
 
 class Server:
     BASE_URL = env.get("BASE_URL", "34.216.12.78:56293")
-    BIND_ADDRESS = env.get("BIND_ADDRESS", "https://gloomlabsweb.run-us-west2.goorm.app")
+    BIND_ADDRESS = env.get("BIND_ADDRESS", "0.0.0.0")
     PORT = int(env.get("PORT", 8080))
 
 # LOGGING CONFIGURATION
