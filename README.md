@@ -48,7 +48,7 @@ pkg install git -y
 
 **2.Download repository:**
 ```
-git clone https://github.com/AkashAchuzzz/FileStreamBot.git
+git clone https://github.com/AkashAchuzzz/WebStreamBot.git
 ```
 
 **3.Change Directory:**
